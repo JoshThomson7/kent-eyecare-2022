@@ -326,7 +326,7 @@ body.blog .blog__sidebar article .widget__heading .widget__icon {
 body.blog .blog__sidebar article .widget__heading h3 {
   font-size: 24px;
   font-weight: normal;
-  color: #24a3b1;
+  color: #7b1322;
   line-height: 22px;
   letter-spacing: -0.5px;
   margin-bottom: 0;
@@ -354,10 +354,10 @@ body.blog .blog__sidebar article .widget__content ul li a {
   color: #4c4b4f;
 }
 body.blog .blog__sidebar article .widget__content ul li a:hover {
-  color: #24a3b1;
+  color: #7b1322;
 }
 body.blog .blog__sidebar article .widget__content ul li.current_page_item a {
-  color: #24a3b1;
+  color: #7b1322;
   font-weight: 600;
 }
 body.blog .blog__sidebar article .widget__content .widget__box {
@@ -386,7 +386,7 @@ body.blog .blog__sidebar article .widget__content .widget__box a span {
   z-index: 10;
 }
 body.blog .blog__sidebar article .widget__content .widget__box a:hover span {
-  background: #24a3b1;
+  background: #7b1322;
 }
 body.blog .blog__sidebar article .widget__content .widget__box a:hover img {
   transition: all 0.5s ease;
@@ -403,8 +403,8 @@ body.blog .blog__sidebar article .tagcloud a {
   margin: 0 3px 3px 0;
 }
 body.blog .blog__sidebar article .tagcloud a:hover {
-  color: #24a3b1;
-  border: 1px solid #24a3b1;
+  color: #7b1322;
+  border: 1px solid #7b1322;
 }
 body.blog .blog__single {
   padding-right: 40px;
@@ -598,7 +598,7 @@ body.blog__archive .blog__sidebar article .widget__heading .widget__icon {
 body.blog__archive .blog__sidebar article .widget__heading h3 {
   font-size: 24px;
   font-weight: normal;
-  color: #24a3b1;
+  color: #7b1322;
   line-height: 22px;
   letter-spacing: -0.5px;
   margin-bottom: 0;
@@ -626,10 +626,10 @@ body.blog__archive .blog__sidebar article .widget__content ul li a {
   color: #4c4b4f;
 }
 body.blog__archive .blog__sidebar article .widget__content ul li a:hover {
-  color: #24a3b1;
+  color: #7b1322;
 }
 body.blog__archive .blog__sidebar article .widget__content ul li.current_page_item a {
-  color: #24a3b1;
+  color: #7b1322;
   font-weight: 600;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box {
@@ -658,7 +658,7 @@ body.blog__archive .blog__sidebar article .widget__content .widget__box a span {
   z-index: 10;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a:hover span {
-  background: #24a3b1;
+  background: #7b1322;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a:hover img {
   transition: all 0.5s ease;
@@ -675,8 +675,8 @@ body.blog__archive .blog__sidebar article .tagcloud a {
   margin: 0 3px 3px 0;
 }
 body.blog__archive .blog__sidebar article .tagcloud a:hover {
-  color: #24a3b1;
-  border: 1px solid #24a3b1;
+  color: #7b1322;
+  border: 1px solid #7b1322;
 }
 
 .blog__home .blog__sidebar {

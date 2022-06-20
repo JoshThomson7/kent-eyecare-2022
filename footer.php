@@ -19,8 +19,8 @@
                     <h5>Contact Us <span class="ion-ios-plus-empty"></span></h5>
 
                     <ul>
-                        <li><i class="fa fa-phone"></i><a href="tel:01707642255">01707 642255</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:info@youandeyeopticians.co.uk">info@youandeyeopticians.co.uk</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:01732873378">01732 873378</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:enquiries@kenteyecare.co.uk">enquiries@kenteyecare.co.uk</a></li>
                     </ul>
                 </article>
 
@@ -45,10 +45,9 @@
                     <h5>Find Us</h5>
 
                     <div class="contact">
-                        <a href="https://www.google.com/maps/place/You+and+Eye+Opticians/@51.6980069,-0.2001388,15z/data=!4m5!3m4!1s0x48763d4c92d650b5:0xd67800570fb9d078!8m2!3d51.6980119!4d-0.1913963" target="_blank">106 Darkes Lane,<br>
-                        Potters Bar,<br>
-                        Herts,<br>
-                        EN6 1AE</a>
+                        <a href="https://www.google.com/maps/place/786+London+Rd,+Larkfield,+Aylesford+ME20+6BE/@51.2986534,0.4361141,16z/data=!4m5!3m4!1s0x47df345c2685d711:0x773f6a73ac7c2e7b!8m2!3d51.2986534!4d0.4404915" target="_blank">786 London Road,<br>
+                        Larkfield, Aylesford,<br>
+                        Kent, ME20 6BE</a>
                     </div>
                 </article>
 
@@ -58,7 +57,7 @@
 
         <div class="subfooter">
             <div class="subfooter__credits">
-                <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>">
+                <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/logo.jpeg" alt="<?php bloginfo('name'); ?>">
                 <p>&copy;<?php bloginfo('name') ?> <?php echo date("Y"); ?></p>
                 <p class="credit"><a href="https://thomson-website-solutions.com/" target="_blank">Website by Thomson Website Solutions</a></p>
             </div><!-- subfooter__credits -->

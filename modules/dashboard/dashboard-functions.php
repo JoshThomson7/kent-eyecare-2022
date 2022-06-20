@@ -45,7 +45,7 @@ add_filter('acf/settings/show_admin', 'remove_acf_menu');
 
 function remove_acf_menu($show) {
 
-	$admins = array('fl1admin', 'alex@fl1.digital'); // users that CAN edit ACF
+	$admins = array('fl1admin', 'TWS'); // users that CAN edit ACF
 
 	// get the current user
 	$current_user = wp_get_current_user();
