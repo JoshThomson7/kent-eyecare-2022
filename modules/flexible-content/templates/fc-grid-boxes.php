@@ -65,7 +65,7 @@ $grid_box_spacing = get_sub_field('grid_box_spacing') ? ' style="border: '.get_s
                 <?php endif; echo $link_close; ?>
                 <?php if(get_sub_field('grid_box_caption')): ?><?php the_sub_field('grid_box_caption'); ?><?php endif; ?>
 
-                <?php if(get_sub_field('grid_box_button_label') && !get_sub_field('grid_box_overlay')): ?>
+                <?php if(get_sub_field('grid_box_button_label') && get_sub_field('grid_box_overlay')): ?>
                     <a <?php echo $new_tab; ?> href="<?php the_sub_field('grid_box_button_url'); ?>" class="button primary"><?php the_sub_field('grid_box_button_label'); ?></a>
                 <?php endif; ?>
             </div><!-- grid__box__content -->

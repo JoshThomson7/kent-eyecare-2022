@@ -23962,7 +23962,7 @@ section.banners .banner__caption {
   z-index: 4;
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 100%;
   justify-content: center;
   box-sizing: border-box;
   visibility: visibile;
@@ -29034,7 +29034,7 @@ header.header .header__main .header_logo_menu .logo a {
   display: block;
 }
 header.header .header__main .header_logo_menu .logo a img {
-  width: 278px;
+  width: 200px;
   align-self: center;
   margin: 0 auto;
 }
@@ -29134,7 +29134,7 @@ header.header .header__main .header__cta .header__menu ul li.menu-item-has-child
 }
 header.header .header__main .header__cta .header__menu ul li ul {
   position: absolute;
-  top: 114px;
+  top: 99px;
   padding: 0;
   width: 100%;
   max-width: 250px;

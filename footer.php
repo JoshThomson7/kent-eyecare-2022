@@ -24,6 +24,25 @@
                     </ul>
                 </article>
 
+                <article class="footer__menu find-us">
+                    <h5>Find Us</h5>
+
+                    <div class="contact">
+                        <a href="https://www.google.com/maps/place/786+London+Rd,+Larkfield,+Aylesford+ME20+6BE/@51.2986534,0.4361141,16z/data=!4m5!3m4!1s0x47df345c2685d711:0x773f6a73ac7c2e7b!8m2!3d51.2986534!4d0.4404915" target="_blank">786 London Road,<br>
+                        Larkfield, Aylesford,<br>
+                        Kent, ME20 6BE</a>
+                    </div>
+                </article>
+
+                <article class="footer__menu contact-info">
+                    <h5>Opening Times <span class="ion-ios-plus-empty"></span></h5>
+
+                    <ul>
+                        <li>Monday-Saturday | 9am-5pm </li>
+                        <li>Sunday | CLOSED</li>
+                    </ul>
+                </article>
+
                 <article class="footer__menu social">
                    <h5>Follow Us <span class="ion-ios-plus-empty"></span></h5>
                     <?php if(get_field('header_social', 'options')): ?>
@@ -39,16 +58,6 @@
 
                     <?php endif; ?>
 
-                </article>
-
-                <article class="footer__menu find-us">
-                    <h5>Find Us</h5>
-
-                    <div class="contact">
-                        <a href="https://www.google.com/maps/place/786+London+Rd,+Larkfield,+Aylesford+ME20+6BE/@51.2986534,0.4361141,16z/data=!4m5!3m4!1s0x47df345c2685d711:0x773f6a73ac7c2e7b!8m2!3d51.2986534!4d0.4404915" target="_blank">786 London Road,<br>
-                        Larkfield, Aylesford,<br>
-                        Kent, ME20 6BE</a>
-                    </div>
                 </article>
 
             </div><!-- max__width -->

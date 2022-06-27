@@ -32,7 +32,7 @@ section.banners { position: relative; overflow: hidden;
 
         &__width { display: flex; height: 100%; overflow: hidden; flex-direction: column; justify-content: space-around;}
 
-        &__caption { z-index: 4; display: flex; flex-direction: column; width: 700px; justify-content: center; box-sizing: border-box; visibility: visibile; opacity: 1; transition: all .4s ease; position: relative;
+        &__caption { z-index: 4; display: flex; flex-direction: column; width: 100%; justify-content: center; box-sizing: border-box; visibility: visibile; opacity: 1; transition: all .4s ease; position: relative;
             @include breakpoint(papabear) { width: 60%;}
             @include breakpoint(mamabear) { width: 100%; align-items: center;}
 

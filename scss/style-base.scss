@@ -329,7 +329,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block;
-                    img { width: 278px; align-self:center; margin: 0 auto;
+                    img { width: 200px; align-self:center; margin: 0 auto;
                         @include breakpoint(brotherbear) { width: 139px;}
                     }
                 }
@@ -392,7 +392,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                             }
                         }
             
-                        ul { position:absolute; top:114px; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; border-top: 2px solid $secondary;
+                        ul { position:absolute; top:99px; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; border-top: 2px solid $secondary; 
 
                             li { margin:0; border-top:none;
 
