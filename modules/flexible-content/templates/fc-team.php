@@ -27,11 +27,11 @@ Team (Custom)
         <article data-image-list="<?php echo $team_img['url']; ?>">
             <a href="<?php echo get_permalink($team_id); ?>" title="<?php echo $team_name; ?>" class="team__modal">
                 <span class="team__overlay">
-                    <span class="team__more">Meet <?php echo $first_name; ?></span>
+                    <span class="team__more">View Bio</span>
                 </span><!-- team__overlay -->
                 <img src="<?php echo $team_img['url']; ?>" alt="<?php echo $team_name; ?>" />
 
-                <h5><?php echo $team_name?> - <?php the_field('team_job_title', $team_id); ?></h5>
+                <h5><?php echo $team_name?></h5>
 
             </a>
 

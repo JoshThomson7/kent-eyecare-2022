@@ -29616,12 +29616,10 @@ footer .subfooter .subfooter__credits p.credit a {
 .team__single__container .max__width .top .left .name h3 {
   font-size: 28px;
   color: #535353;
-  font-weight: 600;
 }
 .team__single__container .max__width .top .left .name h5 {
   font-size: 18px;
   color: #535353;
-  font-weight: 400;
 }
 .team__single__container .max__width .top .left .name p {
   padding-bottom: 10px;
@@ -29634,6 +29632,9 @@ footer .subfooter .subfooter__credits p.credit a {
   color: #535353;
   font-weight: 600;
   padding: 10px 0;
+}
+.team__single__container .max__width .top .left .details .item p {
+  margin-bottom: 15px;
 }
 .team__single__container .max__width .top .left .details .extra-details {
   margin-top: 40px;

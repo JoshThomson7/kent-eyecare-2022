@@ -708,27 +708,23 @@ footer { padding: 0; position: relative;
                 .name{
                     margin-bottom: 20px;
         
-                    h3{
-                        font-size: 28px; color: $primary; font-weight: 600;
-                    }
+                    h3{font-size: 28px; color: $primary;}
 
-                    h5{
-                        font-size: 18px; color: $primary; font-weight: 400;
-                    }
+                    h5{font-size: 18px; color: $primary;}
         
-                    p{
-                        padding-bottom: 10px; border-bottom: 1px solid $primary;
-                    }
+                    p{padding-bottom: 10px; border-bottom: 1px solid $primary;}
                 }
                 
                 .details{
         
                     .item{
-                        margin-bottom: 10px;
+                        margin-bottom: 10px; 
         
                         h5{
                             color: $primary; font-weight: 600; padding: 10px 0;
                         }
+
+                        p{margin-bottom: 15px;}
         
                     }
     
