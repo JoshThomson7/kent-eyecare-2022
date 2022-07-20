@@ -197,7 +197,7 @@ img { max-width: 100%; width: auto; height: auto; vertical-align: middle; border
 * Buttons
 */
 a.button, button.button, button, input[type=submit], input[type=button] { display: flex; background: $secondary; align-self: flex-start; transition: all .4s ease; padding: 18px 40px 18px; cursor: pointer; border: none;
-    span { font-size: 16px; text-align: center; color: $white; line-height: 16px; font-family: $primaryFont;
+    span { font-size: 18px; text-align: center; color: $white; line-height: 16px; font-family: $primaryFont;
     }
 
     &.primary{ background: $primary;  color: $white;
@@ -340,7 +340,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             @include breakpoint(papabear) { flex-direction: row; align-items: center;}
 
             .contact{
-                display: flex;
+                display: flex; padding-top: 10px;
                 @include breakpoint(papabear) { margin-right: 30px; margin-bottom: 0;}
                 @include breakpoint(teenbear) {display: none;}
     
@@ -362,7 +362,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
 
             .header__menu{
-                display: flex; align-items: center; margin-top: 30px;
+                display: flex; align-items: center; margin-top: 20px;
                 @include breakpoint(papabear) { display: none;}
            
                 ul { display: flex; align-items: center;
@@ -579,7 +579,7 @@ footer { padding: 0; position: relative;
                 @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
 
                 &.find-us{
-                    margin-bottom: 30px; border-bottom: none;
+                    // margin-bottom: 30px; border-bottom: none;
                 }
 
                 h5 { font-size: 20px; font-weight: 600; color: $white; padding-bottom:20px;
@@ -710,7 +710,7 @@ footer { padding: 0; position: relative;
         
                     h3{font-size: 28px; color: $primary;}
 
-                    h5{font-size: 18px; color: $primary;}
+                    h5{font-size: 18px; color: $primary; margin-top: 20px; line-height: 22px;}
         
                     p{padding-bottom: 10px; border-bottom: 1px solid $primary;}
                 }
@@ -752,7 +752,7 @@ footer { padding: 0; position: relative;
                 }
     
                 img{
-                    border-radius: 10px; max-width: 500px;
+                    border-radius: 10px; max-width: 500px; margin: 0 auto;
 
                     @include breakpoint(papabear){
                         width: 100%;

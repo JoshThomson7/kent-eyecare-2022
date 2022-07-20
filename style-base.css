@@ -24022,7 +24022,7 @@ section.banners .banner__caption h2 {
   }
 }
 section.banners .banner__caption p {
-  font-size: 18px;
+  font-size: 20px;
   color: #FFFFFE;
   line-height: 30px;
   padding: 0 0 40px;
@@ -24156,9 +24156,6 @@ section.banners .banner__bg__img {
   top: 0;
   left: 0;
   z-index: 1;
-  transform: translateZ(0);
-  animation: 16s forwards zoomScale;
-  transform-origin: center center 0;
 }
 section.banners .banner__caption__skew {
   width: 70%;
@@ -24274,7 +24271,7 @@ section.banners.inner .banner {
   display: flex;
   align-items: center;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
   /* Video Banner */
@@ -24314,7 +24311,8 @@ section.banners.inner .banner .banner__caption h1 {
 @media (max-width: 550px) {
   section.banners.inner .banner .banner__caption h1 {
     font-size: 28px;
-    padding-top: 80px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
   }
 }
 section.banners.inner .banner .banner__caption p {
@@ -25365,7 +25363,7 @@ Flexible Content
 }
 .flexible__content .fc_icon_grid .fc_icon_grid_wrapper article .icon-grid__icon span {
   font-size: 40px;
-  color: #c62b40;
+  color: #7b1322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25373,6 +25371,9 @@ Flexible Content
 }
 .flexible__content .fc_icon_grid .fc_icon_grid_wrapper article .icon-grid__content {
   padding: 0 20px;
+}
+.flexible__content .fc_icon_grid .fc_icon_grid_wrapper article .icon-grid__content:hover h4, .flexible__content .fc_icon_grid .fc_icon_grid_wrapper article .icon-grid__content:hover p {
+  color: #7b1322;
 }
 .flexible__content .fc_icon_grid .fc_icon_grid_wrapper article h4 {
   font-size: 24px;
@@ -25966,11 +25967,10 @@ Flexible Content
 .flexible__content .fc_team .team__wrap article a .team__overlay span.team__more,
 .flexible__content .fc_team_full .team__wrap article a .team__overlay span.team__more {
   padding: 10px 0;
-  color: #7b1322;
+  color: #FFFFFE;
   text-align: center;
   font-size: 22px;
   display: block;
-  font-weight: 600;
   margin-bottom: 40px;
 }
 .flexible__content .fc_team .team__wrap article h5,
@@ -25979,7 +25979,6 @@ Flexible Content
   text-align: center;
   margin-bottom: 0;
   font-size: 16px;
-  font-weight: 600;
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -25996,7 +25995,6 @@ Flexible Content
   color: white;
   display: block;
   line-height: 16px;
-  font-weight: 600;
 }
 .flexible__content .fc_team .team__wrap article h5:before,
 .flexible__content .fc_team_full .team__wrap article h5:before {
@@ -26688,7 +26686,7 @@ Flexible Content
   align-items: center;
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article .grid__box__content h3 i {
-  color: #7b1322;
+  color: #FFFFFE;
   font-size: 18px;
   margin-left: 10px;
   transform: translateX(0) translateY(-2px);
@@ -28805,7 +28803,7 @@ a.button, button.button, button, input[type=submit], input[type=button] {
   border: none;
 }
 a.button span, button.button span, button span, input[type=submit] span, input[type=button] span {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #FFFFFE;
   line-height: 16px;
@@ -29059,6 +29057,7 @@ header.header .header__main .header__cta {
 }
 header.header .header__main .header__cta .contact {
   display: flex;
+  padding-top: 10px;
 }
 @media (max-width: 1024px) {
   header.header .header__main .header__cta .contact {
@@ -29094,7 +29093,7 @@ header.header .header__main .header__cta .contact li a:hover i {
 header.header .header__main .header__cta .header__menu {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 @media (max-width: 1024px) {
   header.header .header__main .header__cta .header__menu {
@@ -29412,10 +29411,6 @@ footer .footer__menus .max__width article {
     border-bottom: 1px #e1e9ee solid;
   }
 }
-footer .footer__menus .max__width article.find-us {
-  margin-bottom: 30px;
-  border-bottom: none;
-}
 footer .footer__menus .max__width article h5 {
   font-size: 20px;
   font-weight: 600;
@@ -29620,6 +29615,8 @@ footer .subfooter .subfooter__credits p.credit a {
 .team__single__container .max__width .top .left .name h5 {
   font-size: 18px;
   color: #535353;
+  margin-top: 20px;
+  line-height: 22px;
 }
 .team__single__container .max__width .top .left .name p {
   padding-bottom: 10px;
@@ -29664,6 +29661,7 @@ footer .subfooter .subfooter__credits p.credit a {
 .team__single__container .max__width .top .right img {
   border-radius: 10px;
   max-width: 500px;
+  margin: 0 auto;
 }
 @media (max-width: 1024px) {
   .team__single__container .max__width .top .right img {

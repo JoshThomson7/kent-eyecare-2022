@@ -50,10 +50,14 @@ Icon Grid
             }
 
             .icon-grid__icon { max-width: 300px; margin: 0 auto 20px;
-                span { font-size: 40px; color:$tertiary; display: flex; justify-content: center; align-items: center; overflow: hidden;}
+                span { font-size: 40px; color:$secondary; display: flex; justify-content: center; align-items: center; overflow: hidden;}
             }
 
-            .icon-grid__content { padding: 0 20px;}
+            .icon-grid__content { padding: 0 20px;
+                &:hover{
+                    h4, p{color: $secondary;}
+                }
+            }
 
             h4 { font-size: 24px; margin-bottom: 10px; color: $primary;}
             p { font-size: 16px; line-height: 22px;}

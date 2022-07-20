@@ -25,12 +25,14 @@
                 </article>
 
                 <article class="footer__menu find-us">
-                    <h5>Find Us</h5>
+                    <h5>Find Us <span class="ion-ios-plus-empty"></span></h5>
 
                     <div class="contact">
-                        <a href="https://www.google.com/maps/place/786+London+Rd,+Larkfield,+Aylesford+ME20+6BE/@51.2986534,0.4361141,16z/data=!4m5!3m4!1s0x47df345c2685d711:0x773f6a73ac7c2e7b!8m2!3d51.2986534!4d0.4404915" target="_blank">786 London Road,<br>
-                        Larkfield, Aylesford,<br>
-                        Kent, ME20 6BE</a>
+                        <ul>
+                            <li><a href="https://www.google.com/maps/place/786+London+Rd,+Larkfield,+Aylesford+ME20+6BE/@51.2986534,0.4361141,16z/data=!4m5!3m4!1s0x47df345c2685d711:0x773f6a73ac7c2e7b!8m2!3d51.2986534!4d0.4404915" target="_blank">786 London Road,<br>
+                            Larkfield, Aylesford,<br>
+                            Kent, ME20 6BE</a></li>
+                        </ul>
                     </div>
                 </article>
 
