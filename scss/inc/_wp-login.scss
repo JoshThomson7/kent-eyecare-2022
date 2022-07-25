@@ -9,7 +9,7 @@ html {
         min-height:600px;
         display: flex;
         box-sizing:border-box;
-		
+		flex-direction: column;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$secondary+0,082d35+100 */
 		background: $secondary; /* Old browsers */
 		background: -moz-linear-gradient(-45deg, $secondary 0%, darken($secondary, 20%) 100%); /* FF3.6-15 */

@@ -45,23 +45,6 @@
                     </ul>
                 </article>
 
-                <article class="footer__menu social">
-                   <h5>Follow Us <span class="ion-ios-plus-empty"></span></h5>
-                    <?php if(get_field('header_social', 'options')): ?>
-                        <ul class="social-wrapper">
-                            <?php while(have_rows('header_social', 'options')) : the_row(); ?>
-                                <li>
-                                    <a href="<?php the_sub_field('header_social_url'); ?>" title="<?php the_sub_field('header_social_platform'); ?>" target="_blank">
-                                        <i class="<?php the_sub_field('header_social_icon'); ?>"></i>
-                                    </a>
-                                </li>
-                            <?php endwhile; ?>
-                        </ul><!-- header__social -->
-
-                    <?php endif; ?>
-
-                </article>
-
             </div><!-- max__width -->
 
         </div><!-- footer__menus -->
