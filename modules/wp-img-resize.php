@@ -27,7 +27,7 @@
 
 		And then just use this here you want the image to be displayed:
 
-		<?php echo $banner_image[url]; ?>
+		<?php echo $banner_image['url']; ?>
 		<?php echo $banner_image[width]; ?> // Optional
 		<?php echo $banner_image[height]; ?> // Optional
 
@@ -143,19 +143,15 @@ if ( !function_exists( 'vt_resize') ) {
 			    echo 'GD Library Error: imagecreatetruecolor does not exist - please contact your webhost and ask them to install the GD library';
 			    return;
 			}
-            
-            $new_img = wp_get_image_editor($file_path);
 
-            if ( ! is_wp_error( $new_img ) ) {
-                $new_img_path = str_replace( basename( $image_src[0] ), basename($file_path), $image_src[0] );
-                $new_img->resize( $width, $height, $crop );
-                $new_img->save($new_img_path);
-                $new_img_size = getimagesize( $new_img_path );
-            }
+			// no cache files - let's finally resize it
+			$new_img_path = image_resize( $file_path, $width, $height, $crop );
+			$new_img_size = getimagesize( $new_img_path );
+			$new_img = str_replace( basename( $image_src[0] ), basename( $new_img_path ), $image_src[0] );
 
 			// resized output
 			$vt_image = array (
-				'url' => $new_img_path,
+				'url' => $new_img,
 				'width' => $new_img_size[0],
 				'height' => $new_img_size[1]
 			);
